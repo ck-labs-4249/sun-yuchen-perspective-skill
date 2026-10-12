@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# temp
+*.tmp
+*.log
+.cache/
+
+# node / python (not needed for a skill repo, but keep clean if extended)
+node_modules/
+__pycache__/
+*.pyc
+
+# do not commit local secrets
+.env
+*.secret
